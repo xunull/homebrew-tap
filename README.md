@@ -6,8 +6,11 @@
 
 ```bash
 brew tap xunull/tap
+brew trust xunull/tap      # Homebrew 6.x 起：信任第三方 tap，不加这步 install 会被拒
 brew install inhomo
 ```
+
+> `brew trust` 是必需的一步：Homebrew 6.x 对第三方 tap 加了信任门，未 `brew trust` 就 `brew install` 会报 `Refusing to load formula ... from untrusted tap`。`brew trust xunull/tap` 后即可正常安装（也可 `brew trust --formula xunull/tap/inhomo` 只信任单个 formula）。
 
 ## 后台常驻
 
