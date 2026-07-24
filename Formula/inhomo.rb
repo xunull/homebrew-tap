@@ -3,28 +3,28 @@
 class Inhomo < Formula
   desc "Audit plaintext HTTP leaks through mihomo egress proxy nodes"
   homepage "https://github.com/xunull/inhomo"
-  version "0.1.0"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/xunull/inhomo/releases/download/v0.1.0/inhomo_v0.1.0_darwin_arm64.tar.gz"
-      sha256 "568d8cf2abecc1129d1124fa2eaf2208ccee95e19e9f82204f4036394103f05d"
+      url "https://github.com/xunull/inhomo/releases/download/v0.1.2/inhomo_v0.1.2_darwin_arm64.tar.gz"
+      sha256 "8c5aa2c5cafb9cf2a6bd9821f1f0eaa94b60f8b903454bda53dc3d74beb167d5"
     end
     on_intel do
-      url "https://github.com/xunull/inhomo/releases/download/v0.1.0/inhomo_v0.1.0_darwin_amd64.tar.gz"
-      sha256 "aa5f53ac0c20e5836c4cfb769b26e2e065909ed4c890cf1a524c4f0553cb0ac8"
+      url "https://github.com/xunull/inhomo/releases/download/v0.1.2/inhomo_v0.1.2_darwin_amd64.tar.gz"
+      sha256 "5eeec2da72814f50f638c49efbe50545fd8ed3fcd318f16510058e5f094e79a2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/xunull/inhomo/releases/download/v0.1.0/inhomo_v0.1.0_linux_arm64.tar.gz"
-      sha256 "6fc042ec8e0b3d144d919004bc7d19b40b737b7fd6c7d6b7a167906e31c108ae"
+      url "https://github.com/xunull/inhomo/releases/download/v0.1.2/inhomo_v0.1.2_linux_arm64.tar.gz"
+      sha256 "27f2c926f2160055be6ec2710086625592186a58f73dde47faa514675a7c6244"
     end
     on_intel do
-      url "https://github.com/xunull/inhomo/releases/download/v0.1.0/inhomo_v0.1.0_linux_amd64.tar.gz"
-      sha256 "05cc5d3f22f12c76b6220f4c3c79f138963e15a44465e60cb6bbc70a9224846b"
+      url "https://github.com/xunull/inhomo/releases/download/v0.1.2/inhomo_v0.1.2_linux_amd64.tar.gz"
+      sha256 "84b01c5b3244ad020e51ecea1640ef85cca75eb0d84a5aff77b82c086efb84f8"
     end
   end
 
